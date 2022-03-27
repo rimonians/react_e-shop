@@ -3,7 +3,7 @@ import classes from "./Heading.module.css";
 
 const Heading = ({ children }) => {
   return (
-    <div>
+    <div className={classes.heading}>
       <h3>{children}</h3>
     </div>
   );

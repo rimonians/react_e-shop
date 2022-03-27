@@ -15,7 +15,7 @@ const Product = () => {
 
   useEffect(() => {
     dispatch(fetchProduct(id));
-  }, []);
+  }, [dispatch, id]);
 
   return (
     <div className={classes.wrapper}>
