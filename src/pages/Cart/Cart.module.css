@@ -1,0 +1,42 @@
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+.cartContainer {
+  width: 100%;
+  overflow-x: auto;
+}
+table {
+  width: 100%;
+  border: 1px solid dodgerblue;
+  border-collapse: collapse;
+}
+th {
+  background: dodgerblue;
+  color: #fff;
+}
+th,
+td {
+  border: 1px solid dodgerblue;
+  padding: 0.5rem;
+  text-align: center;
+}
+td img {
+  height: 60px;
+  width: 60px;
+  object-fit: cover;
+}
+td input{
+  padding: 0.5rem;
+  text-align: center;
+  border: 1px solid dodgerblue;
+}
+td button{
+  padding: 0.8rem;
+  background: crimson;
+  color: #fff;
+  border-radius: 0.5rem;
+  font-weight: 600;
+  cursor: pointer;
+}
